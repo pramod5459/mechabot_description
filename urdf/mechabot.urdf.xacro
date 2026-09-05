@@ -5,6 +5,8 @@
 
     <xacro:include filename="$(find mechabot_description)/urdf/mechabot_base.xacro" />
     <xacro:include filename="$(find mechabot_description)/urdf/mechabot_sensors.xacro"/>
+    <xacro:include filename="$(find mechabot_description)/urdf/mechabot_gazebo.xacro"/>
+    <xacro:include filename="$(find mechabot_description)/urdf/mechabot_ros2control.xacro"/>
     
     
 </robot>
